@@ -1,11 +1,11 @@
-== README
+== Fuck It Bucket
 
 {<img src="https://codeclimate.com/github/simplyaubs/the_bucket.png" />}[https://codeclimate.com/github/simplyaubs/the_bucket]
 {<img src="https://travis-ci.org/simplyaubs/the_bucket.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/simplyaubs/the_bucket]
 
 This is an app to keep your 'worry list'.
 
-Pivotal tracker: https://www.pivotaltracker.com/n/projects/1110426
+Pivotal tracker: https://www.pivotaltracker.com/n/projects/1121764
 
 Heroku staging: http://fuck-it-bucket.herokuapp.com/
 
