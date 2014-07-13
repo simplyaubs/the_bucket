@@ -8,5 +8,4 @@ feature 'Add statements' do
     click_on 'Fuck It'
     expect(page).to have_content 'I just failed my assessment'
   end
-
 end
