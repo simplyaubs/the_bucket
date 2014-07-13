@@ -1,0 +1,15 @@
+language: ruby
+rvm:
+- 2.1.1
+script:
+- RAILS_ENV=test bundle exec rake --trace db:create db:migrate
+branches:
+  only:
+  - master
+deploy:
+  provider: heroku
+  api_key:
+    secure: gCR+9bLf+ZXK0w0AnQPLLsdAGVBvqtq3RVBwlr/J71YrHiza7Ebjz+MW1PJyOMUZb/BpHY7o4852Ik4S2LbNAR5qeAuf21PmS5cFLIEgsfLJD3sDN260aEoykqgJOZ2zYPwF1cBc65lfutaeW+IlzLjP0yb/bxDWA19h+a9bpzY=
+  app: fuck-it-bucket
+  on:
+    repo: simplyaubs/the_bucket
