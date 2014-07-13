@@ -18,12 +18,12 @@
     </p>
   <% end %>
 
-  <% @statements.reverse.each do |phrase| %>
-    <ul>
+  <ul>
+    <% @statements.reverse.each do |phrase| %>
       <li>
         <%= phrase.statement %> - FUCK IT!
       </li>
-    </ul>
-  <% end %>
+    <% end %>
+  </ul>
 
 </div>
