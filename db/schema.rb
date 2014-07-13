@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20140712223345) do
   enable_extension "plpgsql"
 
   create_table "statements", force: true do |t|
-    t.string "statement"
+    t.string "statements"
   end
 
 end

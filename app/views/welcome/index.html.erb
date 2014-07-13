@@ -1,1 +1,11 @@
 <h1>Welcome to The Fuck It Bucket</h1>
+
+<%= form_for @statement do |f| %>
+<p>
+  <%= f.label :statements %>
+  <%= f.text_field :statements %>
+</p>
+ <p>
+   <%= f.submit 'Fuck It' %>
+ </p>
+<% end %>

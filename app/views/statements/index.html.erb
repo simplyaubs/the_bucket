@@ -1,0 +1,19 @@
+<h1>Welcome to The Fuck It Bucket</h1>
+
+<p>"Sometimes, you just need to say 'fuck it' and eat some motherfucking candy." </p>
+
+<%= form_for @statement do |f| %>
+  <p>
+    <%= f.label '------>' %>
+    <%= f.text_field :statement, placeholder: 'Shit just happened' %>
+    <%= f.submit 'Fuck It' %>
+  </p>
+<% end %>
+
+<% @statements.each do |phrase| %>
+  <ul>
+    <li>
+      <%= phrase.statement %> - FUCK IT!
+    </li>
+  </ul>
+<% end %>
