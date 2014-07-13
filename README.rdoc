@@ -1,28 +1,21 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+{<img src="https://codeclimate.com/github/simplyaubs/the_bucket.png" />}[https://codeclimate.com/github/simplyaubs/the_bucket]
+{<img src="https://travis-ci.org/simplyaubs/the_bucket.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/simplyaubs/the_bucket]
 
-Things you may want to cover:
+This is an app to keep your 'worry list'.
 
-* Ruby version
+Pivotal tracker: https://www.pivotaltracker.com/n/projects/1110426
 
-* System dependencies
+Heroku staging: http://fuck-it-bucket.herokuapp.com/
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Setup:
+1. bundle
+2. rake db:create db:migrate
+2. rake db:create db:migrate RAILS_ENV=test
+3. run rspec
+4. heroku run rake db:create db:migrate
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
+
