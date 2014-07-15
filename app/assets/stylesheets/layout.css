@@ -18,4 +18,9 @@
 .main-body {
     position: absolute;
     left: 50%;
+    margin-right: 10px;
+}
+
+li {
+    padding: 10px 0;
 }
