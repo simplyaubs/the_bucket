@@ -3,6 +3,7 @@ class StatementsController < ApplicationController
   def index
     @statement = Statement.new
     @statements = Statement.all
+    @all_time_count = Statement.all.count
   end
 
   def create
