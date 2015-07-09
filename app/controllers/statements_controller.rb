@@ -4,6 +4,7 @@ class StatementsController < ApplicationController
     @statement = Statement.new
     @statements = Statement.all
     @all_time_count = Statement.all.count
+    @todays_count = Statement.where('created_at >= ?', 1.day.ago).count
   end
 
   def create
