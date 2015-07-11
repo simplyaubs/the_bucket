@@ -17,3 +17,6 @@
 
 # RubyMine Files
 .idea/
+
+# Environment Files
+.env
