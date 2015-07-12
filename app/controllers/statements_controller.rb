@@ -16,6 +16,10 @@ class StatementsController < ApplicationController
     end
   end
 
+  def update
+
+  end
+
   private
   def statement_params
     params.require(:statement).permit(:statement)
