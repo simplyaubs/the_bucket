@@ -17,7 +17,8 @@ class StatementsController < ApplicationController
   end
 
   def update
-
+    @statement = Statement.new(params[:statement])
+    Twitter.update(statement.tweet)
   end
 
   private
